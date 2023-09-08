@@ -1,0 +1,90 @@
+[
+    {
+    "id": 1,
+    "nombre": "dvr",
+    "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
+    "precio":65399.99,
+    "descripcion": "DVR 4 canales  de video 1ch de audio tecnologia 1080p lite",
+    "categoria": "DVR"
+},
+{
+    "id": 2,
+    "nombre": "dvr",
+    "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
+    "precio":65399.99,
+    "descripcion": "DVR 8 canales  de video 1ch de audio tecnologia 1080p lite",
+    "categoria": "DVR"
+},
+{
+    "id": 3,
+    "nombre": "dvr",
+    "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
+    "precio":65399.99,
+    "descripcion": "DVR 16 canales  de video 1ch de audio tecnologia 1080p lite",
+    "categoria": "DVR"
+},
+{
+    "id": 4,
+    "nombre": "camara domo",
+    "imagen": "https://www.rosarioseguridad.com.ar/admin/productos/60516656dc9cccae8539e193b83ae4f1.jpg",
+    "precio": 15600,
+    "descripcion": "Camara mini domo exterior lente 3,6mm 1080p cuatrinorma",
+    "categoria":"CAMARA"
+},
+{
+    "id": 5,
+    "nombre": "camara bullet",
+    "imagen": "https://www.rosarioseguridad.com.ar/admin/productos/58a85d579621b14341073daf99ab1328.jpg",
+    "precio":12400,
+    "descripcion": "Camara bullet exterior lente 3,6mm 1080p cuatrinorma ip65",
+    "categoria":"CAMARA"
+},
+{
+    "id": 6,
+    "nombre": "camara Domo PTZ",
+    "imagen": "https://www.rosarioseguridad.com.ar/admin/productos/58a85d579621b14341073daf99ab1328.jpg",
+    "precio":12400,
+    "descripcion": "Camara Domo PTZ exterior lente 3,6mm/12mm 1080p cuatrinorma ip65",
+    "categoria":"CAMARA"
+},
+{
+    "id": 7,
+    "nombre": "disco rigido 1TB",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWXL3wX7gAYj3oBzarZtHWZSpZj-JOMfPNbA&usqp=CAU",
+    "precio":26450,
+    "descripcion": "Disco rigido purple vigilancia 1Tb 5400rpm apto para nvr,dvr",
+    "categoria":"ALMACENAMIENTO"
+},
+{
+    "id": 8,
+    "nombre": "balun",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgx0bXoJIVLHBOlWAihiZT5B3BCtZ9LldhsQ&usqp=CAU",
+    "precio":850,
+    "descripcion": "Conector de video balun pasivo full hd rango de transmision hasta 300m",
+    "categoria":"CONECTORES"
+},
+{
+    "id": 9,
+    "nombre": "caja estanco",
+    "imagen": "https://electricabeltran.com.ar/images/product_image/1833/0?w=200&h=199&fit=crop&dpr=2.625&q=80",
+    "precio":700,
+    "descripcion": "Cajas estanco para resguardar conectores diferentes medidas",
+    "categoria":"CAJAS ESTANCO"
+},
+{
+    "id": 10,
+    "nombre": "conector macho",
+    "imagen": "https://www.cclink.cl/wp-content/uploads/2020/04/Conector-DC-Macho.png",
+    "precio": 250,
+    "descripcion": "Conector macho de alimentacion con borneras apto para 12v",
+    "categoria":"CONECTORES"
+},
+{
+    "id": 11,
+    "nombre": "Fuente de alimentacion",
+    "imagen": "https://m.media-amazon.com/images/I/71t9zhET3kL.jpg",
+    "precio": 5550,
+    "descripcion": "Fuente switch de alimentacion 12v 5A para cctv,soporta hasta 5 camaras ",
+    "categoria":"ALIMENTACION"
+} 
+]
