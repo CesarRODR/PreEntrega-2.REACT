@@ -11,7 +11,7 @@ function getProductos() {
     });
 }
 
-export default function ItemList() { 
+export default function ItemList() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -21,7 +21,7 @@ export default function ItemList() {
             setLoading(false)
         })
     }, []);
-
+ 
     if (loading === true) return <h3>Cargando....</h3>
 
     return (

@@ -1,17 +1,18 @@
-import { useState } from 'react'
+
 import { NavBar } from './components/NavBar'
 import { ItemListContainer } from "./components/ItemListContainer"
 import './App.css'
-import { CartWidget } from './components/CartWidget'
+import ItemDetailContainer from "./components/ItemDetailContainer"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <NavBar />
       <ItemListContainer greeting="Todos los productos" />
-
+      <ItemDetailContainer />
     </>
   )
 }

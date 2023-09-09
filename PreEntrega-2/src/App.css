@@ -12,6 +12,12 @@
 font-family: sans-serif;
 color: rgb(83, 83, 109);
 
-display:grid;
 
+
+}
+.item-list{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 2rem;
 }
