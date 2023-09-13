@@ -2,11 +2,11 @@ import ItemList from "./ItemList";
 
 
 
-export const ItemListContainer = ({ greeting }) => {
+export const ItemListContainer = ({ category, greeting }) => {
   return (
     <div className="item-list-container">
       <h1>{greeting}</h1>
-      <ItemList />
+      <ItemList category={category} />
     </div>
   );
 };
