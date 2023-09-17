@@ -1,18 +1,14 @@
-import ItemCount from "./itemCount";
+import ItemCount from "./ItemCount";
 
 
-export default function ItemDetail({id,imagen,nombre,descripcion,precio}){
-    return(
-        <div className="item">
-            <img src={imagen} width={140} alt="" />
-            <h3>nombre:{nombre}</h3>
-            <p>descripcion:{descripcion}</p>
-            <span>precio $:{precio}</span>
-
-            <div className="item-count"> 
+export default function ItemDetail({ productos }) {
+    return (
+        <div className="item-detail">
+            <h2>{productos.nombre}</h2>
+            <img src={`${productos.imagen}`} width={125} alt="fotito"/>
+            <p>{productos.categoria}</p>
+            <span>$ {productos.precio}</span>
             <ItemCount />
-         
-            </div>
         </div>
     );
 }

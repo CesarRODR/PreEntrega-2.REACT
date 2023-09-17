@@ -17,13 +17,13 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink to="/category/dvr" className="nav-link active" aria-current="page">DVR`S</NavLink>
+                                <NavLink to="/categoria/DVR" className="nav-link active" aria-current="page">DVRS</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink to="/category/camaras" className="nav-link">Camaras</NavLink>
+                            <NavLink to="/categoria/CAMARA" className="nav-link">Camaras</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink to="/category/conectores" className="nav-link">Conectores</NavLink>
+                            <NavLink to="/categoria/CONECTORES" className="nav-link">Conectores</NavLink>
                             </li>
                         </ul>
                     </div>

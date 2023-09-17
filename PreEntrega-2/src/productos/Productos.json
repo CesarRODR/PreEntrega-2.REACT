@@ -1,7 +1,7 @@
 [
     {
     "id": 1,
-    "nombre": "dvr",
+    "nombre": "dvr 4ch",
     "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
     "precio":65399.99,
     "descripcion": "DVR 4 canales  de video 1ch de audio tecnologia 1080p lite",
@@ -9,7 +9,7 @@
 },
 {
     "id": 2,
-    "nombre": "dvr",
+    "nombre": "dvr 8ch",
     "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
     "precio":65399.99,
     "descripcion": "DVR 8 canales  de video 1ch de audio tecnologia 1080p lite",
@@ -17,7 +17,7 @@
 },
 {
     "id": 3,
-    "nombre": "dvr",
+    "nombre": "dvr 16ch",
     "imagen": "https://axa.com.ar/webaxa/28469/dvr-hikvision-8-canales-1080n-720p-deteccion-humana-y-vehiculos.jpg",
     "precio":65399.99,
     "descripcion": "DVR 16 canales  de video 1ch de audio tecnologia 1080p lite",

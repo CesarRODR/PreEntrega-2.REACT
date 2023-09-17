@@ -1,48 +1,55 @@
 import React, { useEffect, useState } from 'react'
 import ItemDetail from "./ItemDetail"
+import productos from "../productos/Productos.json"
+import { useParams } from 'react-router-dom';
 
-export const productosId =(productId)=>{
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(productsJson.find(prod => prod.id === productId))
-    }, 1000);
-  })
+
+const mockAPI = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(productos);
+        }, 2000);
+    });
 }
 
-const ItemDetailContainer = () => {
+export default function ItemDetailContainer () {
+    const[productos, setProductos] = useState();
+    const { id } = useParams();
 
-  const[objet, setObjet] = useState(null)
+    useEffect(() => {
+        if(id !== undefined) {
+            mockAPI(id).then((data) => setProductos(data));
+        }else{
+            mockAPI(id).then((data) => {
+                const productoEncontrado = data.find(item => item.id === Number(id))
+                setProductos(productoEncontrado)
+            });  
+        }
+   
+    }, [id]);
 
-  useEffect(()=>{
-      productosId("1")
-      .then(response =>{
-        setObjet(response)
-      }) 
-    }, [])
-  return (
-
-    <div>
-      <ItemDetail {...Object} />
-
-    </div>
-  )
+    return (
+        <div className="item-detail-container">
+              <ItemDetail productos={productos} /> 
+        </div>
+    );
 }
 
-export default ItemDetailContainer
 
-  /* new Promise((resolve, reject) => {
-  if (!dato) {
-      resolve(dato)
-    } else {
-      const detailFilter = dato.filter((valor) => {
-        return valor.categoria === dato
 
-      })
-        resolve(da)
+/* new Promise((resolve, reject) => {
+if (!dato) {
+    resolve(dato)
+  } else {
+    const detailFilter = dato.filter((valor) => {
+      return valor.categoria === dato
 
-    }
+    })
+      resolve(da)
 
-  }) */
+  }
+
+}) */
 
 
 
